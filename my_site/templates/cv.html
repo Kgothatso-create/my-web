@@ -1,0 +1,175 @@
+{% extends 'index.html' %}
+{% load static %} 
+{% block title %}CV{% endblock %} 
+{% block content %}
+<h1>Curriculum vitae</h1>
+<img src="{% static 'images/profile.png' %}" alt="image" style="width: 300px;"/>
+<h3>Kgothatso Phooko</h3>
+<hr style="color: whitesmoke" />
+<div style="display: flex">
+  <div style="flex: 1">
+    <h4>Address:</h4>
+    <p>11 Tshokwane ave</p>
+    <p>Ivy Park</p>
+    <p>Polokwane</p>
+    <p>0699</p>
+  </div>
+
+  <div style="flex: 1">
+    <h4>Profile Statement:</h4>
+    <p>
+      As a recent graduate of the HyperionDev Software Engineering program with
+      a passion for coding, I am seeking an position where I can apply my skills
+      and knowledge to help develop innovative software solutions.Though I do
+      not have any previous work experience, I have gained valuable experience
+      by working on personal projects, including cloning existing business
+      tools. I am excited to work with a team of experienced developers to
+      continue building on my skills and make valuable contributions to the
+      industry
+    </p>
+  </div>
+</div>
+
+<hr style="color: whitesmoke" />
+<h4>Education and Training:</h4>
+<hr style="color: whitesmoke" />
+<!-- A table for education and traning -->
+<table style="border-collapse: separate; border-spacing: 10px">
+  <!-- 1st table row, with table haeaders -->
+  <tr style="padding: 25px">
+    <th>Education and Training</th>
+    <th>Institution/Provider</th>
+    <th>Location/Duration</th>
+  </tr>
+  <!-- 2nd table row for highschool qualification -->
+  <tr style="padding: 25px">
+    <td>matric certificate</td>
+    <td>HTS Tom Naude</td>
+    <td>Polokwane, 1 year</td>
+  </tr>
+  <!-- 3rd row for Hyperiondev certificate -->
+  <tr style="padding: 25px">
+    <td>Software Engineering certificate of completion</td>
+    <td>HyperionDev</td>
+    <td>Online, 3 months</td>
+  </tr>
+  <!-- 4th to 6th rows for Great learning certificate -->
+  <tr style="padding: 25px">
+    <td>Introduction to Design Thinking certificate of completion</td>
+    <td>Great Learning</td>
+    <td>Online, Self-paced</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Python Data Structures certificate of completion</td>
+    <td>Great Learning</td>
+    <td>Online, Self-paced</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Software Testing certificate of completion</td>
+    <td>Great Learning</td>
+    <td>Online, Self-paced</td>
+  </tr>
+  <!-- 7th to 13th rows for Code Studio certificate -->
+  <tr style="padding: 25px">
+    <td>Basics in Python certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Basics in Python OOP certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Basics in C++ certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Basics in C++ OOP certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Basics in JAVA certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+  </tr>
+  <tr style="padding: 25px">
+    <td>Basics in JAVA OOP certificate of completion</td>
+    <td>Code Studio</td>
+    <td>online, 25 days</td>
+    <!-- End of Code Studio certificate -->
+  </tr>
+</table>
+
+<hr style="color: whitesmoke" />
+<h4>Skills:</h4>
+<hr style="color: whitesmoke" />
+<li>
+  <p>
+    Analytical skills: Able to analyze large amounts of data and information.
+  </p>
+</li>
+<br />
+<li>
+  <p>
+    Communication skills: Able to communicate clearly and concise to get the
+    point accross.
+  </p>
+</li>
+<br />
+<li>
+  <p>
+    Continuous learning: A willingness to learn and adapt to new technologies.
+  </p>
+</li>
+<br />
+<li>
+  <p>
+    Teamwork and collaboration: Through team sports, being a prefect and working
+    with other developers ive built a strong ability to work in a group.
+  </p>
+</li>
+<br />
+<li>
+  <p>
+    Problem-solving skills and Attention to detail: Through my completion of
+    coding projects and code review, I have developed a strong attention to
+    detail, the smallest detail makes or breaks code.
+  </p>
+</li>
+
+<hr style="color: whitesmoke" />
+<h4>Interests and hobbies:</h4>
+<hr style="color: whitesmoke" />
+<li>
+  <p>Learning new skills</p>
+</li>
+<br />
+<li>
+  <p>Listening to audio books</p>
+</li>
+<br />
+<li>
+  <p>Watching horror and sci-fi movies</p>
+</li>
+<br />
+<li>
+  <p>Listening to music</p>
+</li>
+<br />
+<li>
+  <p>Traveling to new destinations</p>
+</li>
+<hr style="color: whitesmoke" />
+<p>
+  "I am excited about the opportunity to contribute my skills and experience to
+  your company. With my strong background in software engineering and my passion
+  for innovation, I am confident that I would make a valuable addition to your
+  team. Please feel free to contact me at Kgothatsophooko@gmail.com or +27606291917
+  if you would like to discuss my qualifications further. Thank you for
+  considering my application."
+</p>
+
+{% endblock %}

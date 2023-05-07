@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% load static %} 
+{% block title %}Blog{% endblock %} 
+{% block content %}
+
+<h1>Blog Posts</h1>
+
+{% for post in object_list %}
+<h5 style="text-align: center; padding-top: 20px; color: whitesmoke;">{{ post.date|date:"Y-m-d" }}: <a href="{%url 'post' post.id %}" style="color: blue;"> {{ post.title }}</a></h5>
+{% endfor %}
+
+{% endblock content %}

@@ -1,0 +1,61 @@
+body { background: black;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+}
+
+p { color: white;
+    text-align: center;
+}
+
+h1 { color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(237, 241, 3);
+    animation: shadow-glow 2s ease-in-out infinite alternate;
+    }
+    
+@keyframes shadow-glow {
+  from {
+    text-shadow: 1px 1px 2px rgb(200, 234, 6);
+  }
+  to {
+    text-shadow: 2px 2px 4px rgb(244, 224, 0);
+  }
+    }
+
+h2 { color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(237, 241, 3);
+    animation: shadow-glow 2s ease-in-out infinite alternate;
+}
+
+h3 { color: whitesmoke;
+    text-align: center;
+}
+
+h4 { color: whitesmoke;
+  text-align: center;
+}
+
+img {
+    padding-top: 30px; /* Change 20px to your desired padding amount */
+    display: block;
+    margin: 0 auto;
+  }
+  
+footer {
+   
+    background-color: #fffdfd;
+    text-align: center;
+  }
+  
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+table {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
